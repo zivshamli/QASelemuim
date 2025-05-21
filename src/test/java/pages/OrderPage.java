@@ -14,7 +14,7 @@ public class OrderPage {
         this.driver = driver;
     }
 
-    public int getOrderCount() {
-        return driver.findElements(ordersTableRows).size() - 1; // Subtract header row
+    public List<WebElement> getOrders() {
+        return driver.findElements(ordersTableRows); // Subtract header row
 	}
 }

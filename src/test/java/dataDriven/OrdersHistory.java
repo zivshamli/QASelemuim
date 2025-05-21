@@ -21,6 +21,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pages.LoginPage;
+import pages.MenuPage;
+import pages.OrderPage;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
@@ -115,6 +120,7 @@ public class OrdersHistory {
 
 	@Test
 	public void simple() throws InterruptedException {
+		
 		for (int i = 0; i < user.size(); i++) {
 			JSONObject obj = (JSONObject) user.get(i);
 			Long orderLong = (Long) obj.get("orders");
@@ -124,28 +130,15 @@ public class OrdersHistory {
 			driver.get("https://jpetstore.aspectran.com/account/signonForm");
 			logger.info("opening Sign in screen");
 			driver.manage().window().setSize(new Dimension(1004, 724));
-
-			driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input")).clear();
-			logger.debug("clear username field ");
-
-			driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input")).clear();
-			logger.debug("clear password field ");
-
-			driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input"))
-					.sendKeys((String) obj.get("username"));
-			logger.debug("enter username in username field ");
-
-			driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input"))
-					.sendKeys((String) obj.get("password"));
-			logger.debug("enter password in password field ");
-
-			driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/div/button")).click();
-			logger.debug("click the sign up button");
-			driver.findElement(By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]")).click();
+			login(driver, obj, logger);
+			MenuPage menu= new MenuPage(driver);
+			menu.goToOrders();
 			logger.debug("go to my orders ");
+			OrderPage orderPage = new OrderPage(driver);
 
 
-			List<WebElement> orders = driver.findElements(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr"));
+
+			List<WebElement> orders =orderPage.getOrders();
 			logger.debug("check if the orders are shown ");
 
 			
@@ -166,55 +159,24 @@ public class OrdersHistory {
 		logger.info("opening Sign in screen");
 		driver.manage().window().setSize(new Dimension(1004, 724));
 
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input")).clear();
-		logger.debug("clear username field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input")).clear();
-		logger.debug("clear password field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input"))
-				.sendKeys((String) obj.get("username"));
-		logger.debug("enter username in username field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input"))
-				.sendKeys((String) obj.get("password"));
-		logger.debug("enter password in password field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/div/button")).click();
-		logger.debug("click the sign up button");
-		driver.findElement(By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]")).click();
+		login(driver, obj, logger);
+		
+		MenuPage menu= new MenuPage(driver);
+		menu.goToOrders();
 		logger.debug("go to my orders ");
-		driver.findElement(By.xpath("//*[@id=\"Menu\"]/div[1]/a[4]")).click();
+		menu.logout();
 		logger.debug("log out ");
-		
-		
-		driver.findElement(By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]")).click();
+		menu.signup();
 		logger.debug("sign in");
 
 		obj = (JSONObject) user.get(1);
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input")).clear();
-		logger.debug("clear username field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input")).clear();
-		logger.debug("clear password field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[1]/input"))
-				.sendKeys((String) obj.get("username"));
-		logger.debug("enter username in username field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/label[2]/input"))
-				.sendKeys((String) obj.get("password"));
-		logger.debug("enter password in password field ");
-
-		driver.findElement(By.xpath("//*[@id=\"Signon\"]/form/div/div/button")).click();
-		logger.debug("click the sign up button");
-		driver.findElement(By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]")).click();
-		
+		login(driver, obj, logger);
+		menu.goToOrders();
 		logger.debug("go to my orders ");
+		OrderPage orderPage = new OrderPage(driver);
+		List<WebElement> orders =orderPage.getOrders();
 		Long orderLong = (Long) obj.get("orders");
-		int order = orderLong.intValue();
-		
-		List<WebElement> orders = driver.findElements(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr"));
+		int order = orderLong.intValue();		
 		logger.debug("check if the orders are shown ");
 
 		
@@ -230,7 +192,7 @@ public class OrdersHistory {
 		
 		
 
-
+		
 		
 		
 		
@@ -250,6 +212,27 @@ public class OrdersHistory {
 			System.out.println("Test finished successfully.");
 			System.exit(0);
 		}
+	}
+	public static void login(WebDriver driver ,JSONObject obj,Logger logger) {
+		String username = (String) obj.get("username");
+		String password = (String) obj.get("password");
+		LoginPage loginPage =new LoginPage(driver);
+		loginPage.clearUsername();
+		logger.debug("clear username field ");
+
+		loginPage.clearPassword();
+		logger.debug("clear password field ");
+
+		loginPage.enterUsername(username);
+		logger.debug("enter username in username field ");
+
+		loginPage.enterPassword(password);
+		logger.debug("enter password in password field ");
+
+		loginPage.clickSignUp();
+		logger.debug("click the sign up button");
+
+				
 	}
 
 }
