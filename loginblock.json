@@ -1,0 +1,14 @@
+[
+  {
+    "description": "Five failed login attempts",
+    "username": "wrongUser",
+    "password": "wrongPass",
+    "expectedResult": "temporarily-blocked-after-5-fails"
+  },
+  {
+    "description": "Valid username and password",
+    "username": "j2ee",
+    "password": "j2ee",
+    "expectedResult": ""
+  }
+]

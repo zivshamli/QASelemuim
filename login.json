@@ -1,0 +1,37 @@
+[
+  {
+    "description": "Valid username and password",
+    "username": "j2ee",
+    "password": "j2ee",
+    "expectedResult": ""
+  },
+  {
+    "description": "Invalid username, valid password",
+    "username": "wrongUser",
+    "password": "j2ee",
+    "expectedResult": "Invalid username or password. Signon failed."
+
+  },
+  {
+    "description": "Valid username, invalid password",
+    "username": "j2ee",
+    "password": "wrongPass",
+    "expectedResult": "Invalid username or password. Signon failed."
+
+  },
+  {
+    "description": "Invalid username and password",
+    "username": "wrongUser",
+    "password": "wrongPass",
+    "expectedResult": "Invalid username or password. Signon failed."
+
+  },
+  {
+    "description": "Empty username and/or password",
+    "username": "",
+    "password": "",
+    "expectedResult": "Invalid username or password. Signon failed."
+
+  }
+
+]

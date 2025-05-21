@@ -1,0 +1,532 @@
+[INFO ] 2025-05-14 10:12:41.432 [main] LogsDemo - opening webiste
+[DEBUG] 2025-05-14 10:12:41.436 [main] LogsDemo - entring weight
+[DEBUG] 2025-05-14 10:12:41.508 [main] LogsDemo - selecting kilograms
+[DEBUG] 2025-05-14 10:12:41.547 [main] LogsDemo - selecting height in feet
+[DEBUG] 2025-05-14 10:12:41.581 [main] LogsDemo - selecting height in inchs
+[DEBUG] 2025-05-14 10:12:41.616 [main] LogsDemo - Clicking on calculate
+[DEBUG] 2025-05-14 10:12:41.666 [main] LogsDemo - Getting SIUnit value
+[DEBUG] 2025-05-14 10:12:41.699 [main] LogsDemo - Getting USUnit value
+[DEBUG] 2025-05-14 10:12:41.719 [main] LogsDemo - Getting UKUnit value
+[DEBUG] 2025-05-14 10:12:41.737 [main] LogsDemo - Getting overall description
+[INFO ] 2025-05-14 10:16:40.491 [main] LogsDemo - opening webiste
+[DEBUG] 2025-05-14 10:16:40.493 [main] LogsDemo - entring weight
+[DEBUG] 2025-05-14 10:16:40.557 [main] LogsDemo - selecting kilograms
+[DEBUG] 2025-05-14 10:16:40.592 [main] LogsDemo - selecting height in feet
+[DEBUG] 2025-05-14 10:16:40.626 [main] LogsDemo - selecting height in inchs
+[DEBUG] 2025-05-14 10:16:40.659 [main] LogsDemo - Clicking on calculate
+[DEBUG] 2025-05-14 10:16:40.700 [main] LogsDemo - Getting SIUnit value
+[DEBUG] 2025-05-14 10:16:40.732 [main] LogsDemo - Getting USUnit value
+[DEBUG] 2025-05-14 10:16:40.752 [main] LogsDemo - Getting UKUnit value
+[DEBUG] 2025-05-14 10:16:40.769 [main] LogsDemo - Getting overall description
+[INFO ] 2025-05-14 15:51:48.862 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:49.023 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:49.051 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:49.095 [main] Login - enter username in username field 
+[DEBUG] 2025-05-14 15:51:49.142 [main] Login - enter password in password field 
+[DEBUG] 2025-05-14 15:51:49.805 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:49.825 [main] Login - Getting the error message
+[DEBUG] 2025-05-14 15:51:49.825 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-14 15:51:50.152 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:50.300 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:50.324 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:50.358 [main] Login - enter username in username field 
+[DEBUG] 2025-05-14 15:51:50.392 [main] Login - enter password in password field 
+[DEBUG] 2025-05-14 15:51:51.043 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:51.052 [main] Login - Getting the error message
+[DEBUG] 2025-05-14 15:51:51.052 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-14 15:51:51.382 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:51.515 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:51.541 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:51.579 [main] Login - enter username in username field 
+[DEBUG] 2025-05-14 15:51:51.622 [main] Login - enter password in password field 
+[DEBUG] 2025-05-14 15:51:52.266 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:52.277 [main] Login - Getting the error message
+[DEBUG] 2025-05-14 15:51:52.277 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-14 15:51:52.672 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:52.828 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:52.851 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:52.889 [main] Login - enter username in username field 
+[DEBUG] 2025-05-14 15:51:52.927 [main] Login - enter password in password field 
+[DEBUG] 2025-05-14 15:51:53.602 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:53.613 [main] Login - Getting the error message
+[DEBUG] 2025-05-14 15:51:53.613 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-14 15:51:53.972 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:54.117 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:54.140 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:54.173 [main] Login - enter username in username field 
+[DEBUG] 2025-05-14 15:51:54.206 [main] Login - enter password in password field 
+[DEBUG] 2025-05-14 15:51:54.895 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:54.906 [main] Login - Getting the error message
+[DEBUG] 2025-05-14 15:51:54.906 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-14 15:51:55.242 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-14 15:51:55.378 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:55.401 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:55.439 [main] Login - enter wrong username in username field chance : 0
+[DEBUG] 2025-05-14 15:51:55.477 [main] Login - enter wrong password in password field chance : 0
+[DEBUG] 2025-05-14 15:51:56.139 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:56.168 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:56.192 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:56.228 [main] Login - enter wrong username in username field chance : 1
+[DEBUG] 2025-05-14 15:51:56.264 [main] Login - enter wrong password in password field chance : 1
+[DEBUG] 2025-05-14 15:51:56.909 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:56.936 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:56.958 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:56.995 [main] Login - enter wrong username in username field chance : 2
+[DEBUG] 2025-05-14 15:51:57.030 [main] Login - enter wrong password in password field chance : 2
+[DEBUG] 2025-05-14 15:51:57.652 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:57.680 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:57.702 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:57.737 [main] Login - enter wrong username in username field chance : 3
+[DEBUG] 2025-05-14 15:51:57.772 [main] Login - enter wrong password in password field chance : 3
+[DEBUG] 2025-05-14 15:51:58.394 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:58.424 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:58.446 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:58.481 [main] Login - enter wrong username in username field chance : 4
+[DEBUG] 2025-05-14 15:51:58.515 [main] Login - enter wrong password in password field chance : 4
+[DEBUG] 2025-05-14 15:51:59.136 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:59.165 [main] Login - clear username field 
+[DEBUG] 2025-05-14 15:51:59.189 [main] Login - clear password field 
+[DEBUG] 2025-05-14 15:51:59.223 [main] Login - enter right username in username field 
+[DEBUG] 2025-05-14 15:51:59.259 [main] Login - enter right password in password field 
+[DEBUG] 2025-05-14 15:51:59.902 [main] Login - click the sign up button
+[DEBUG] 2025-05-14 15:51:59.916 [main] Login - if showing block message 
+[INFO ] 2025-05-15 13:36:56.086 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:36:56.593 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:36:56.985 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:36:57.012 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:36:57.671 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:36:57.672 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:36:57.693 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:36:57.707 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:36:58.059 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:36:58.631 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:36:58.996 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:36:59.015 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:36:59.664 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:36:59.664 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:37:00.043 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 13:37:00.407 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:37:00.425 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:37:01.075 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:37:01.075 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:37:01.087 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:37:01.095 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 13:37:01.109 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:40:30.763 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:40:31.265 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:40:31.632 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:40:31.658 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:40:32.312 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:40:32.313 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:40:32.334 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:40:32.345 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:40:32.685 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:40:33.273 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:40:33.636 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:40:33.658 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:40:34.298 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:40:34.299 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:40:34.669 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 13:40:35.041 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:40:35.060 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:40:35.710 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:40:35.710 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:40:35.721 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:40:35.733 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 13:40:35.747 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:46:00.356 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:46:00.847 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:46:01.204 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:46:01.228 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:46:01.869 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:46:01.869 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:46:01.891 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:46:01.903 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:46:02.231 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:46:02.823 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:46:03.175 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:46:03.196 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:46:03.837 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:46:03.837 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:46:04.204 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 13:46:04.562 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:46:04.586 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:46:05.228 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:46:05.228 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:46:05.235 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:46:05.251 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 13:46:05.264 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:49:10.489 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:49:10.987 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:49:11.360 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:49:11.383 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:49:12.024 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:49:12.025 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:49:12.045 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:49:12.062 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:49:12.102 [main] AddtoCart - clear cart
+[INFO ] 2025-05-15 13:50:42.577 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 13:50:43.084 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:50:43.458 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:50:43.482 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:50:44.111 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:50:44.111 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:50:44.125 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:50:44.150 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 13:50:44.194 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 13:50:45.189 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 13:50:45.558 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:50:45.584 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:50:46.214 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:50:46.214 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:50:46.596 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 13:50:46.970 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 13:50:46.987 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 13:50:47.634 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 13:50:47.635 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 13:50:47.643 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 13:50:47.653 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 13:50:47.667 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:01:42.032 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 14:01:42.524 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:01:42.896 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:01:42.923 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:01:43.587 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:01:43.587 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:01:43.611 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:01:43.624 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:01:43.666 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:01:44.667 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:01:45.062 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:01:45.083 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:01:45.755 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:01:45.755 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:01:46.130 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:01:46.508 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:01:46.527 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:01:47.167 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:01:47.167 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:01:47.180 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:01:47.187 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:01:47.205 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:03:08.324 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 14:03:08.842 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:03:09.209 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:03:09.239 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:03:09.895 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:03:09.895 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:03:09.912 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:03:09.926 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:03:09.967 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:03:10.985 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:03:11.364 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:03:11.385 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:03:12.033 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:03:12.033 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:03:12.426 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:03:12.803 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:03:12.822 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:03:13.476 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:03:13.477 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:03:13.488 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:03:13.495 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:03:13.507 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:05:15.648 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 14:05:16.154 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:05:16.523 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:16.548 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:17.191 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:05:17.192 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:05:17.209 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:05:17.230 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:05:17.275 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:05:18.276 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:05:18.649 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:18.672 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:19.300 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:05:19.300 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:05:19.687 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:05:20.060 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:20.078 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:20.720 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:05:20.720 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:05:20.731 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:05:20.738 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:05:20.752 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:05:20.789 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:05:21.262 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:05:21.643 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:21.662 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:22.310 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:05:22.310 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:05:22.680 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:05:23.093 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:23.117 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:23.775 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:05:23.775 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:05:23.787 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:05:24.148 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:05:24.517 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:05:24.534 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:05:25.158 [main] AddtoCart -  add product to cart 
+[INFO ] 2025-05-15 14:10:16.563 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 14:10:17.104 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:10:17.471 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:10:17.502 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:18.141 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:18.141 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:10:18.159 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:10:18.176 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:10:18.220 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:10:19.259 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:10:19.653 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:10:19.675 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:20.329 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:20.330 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:10:20.733 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:10:21.118 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:10:21.138 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:21.802 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:21.802 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:10:21.816 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:10:21.826 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:10:21.839 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:10:21.877 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:10:22.355 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:10:22.735 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:10:22.760 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:23.411 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:23.411 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:10:23.775 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:10:24.154 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:10:24.178 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:24.826 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:24.826 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:10:25.203 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:10:25.582 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-15 14:10:25.606 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:10:26.258 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:10:26.266 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:10:26.273 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:15:54.840 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-15 14:15:55.335 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:15:55.711 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:15:55.745 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:15:56.404 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:15:56.404 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:15:56.426 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:15:56.437 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:15:56.478 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:15:57.504 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:15:57.894 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:15:57.922 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:15:58.749 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:15:58.749 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:15:59.142 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:15:59.524 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:15:59.543 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:16:00.192 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:16:00.192 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:16:00.205 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:16:00.213 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:16:00.231 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:16:00.271 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-15 14:16:00.768 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:16:01.151 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:16:01.177 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:16:01.833 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:16:01.833 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:16:02.197 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-15 14:16:02.591 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-15 14:16:02.612 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:16:03.258 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:16:03.258 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-15 14:16:03.633 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-15 14:16:04.010 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-15 14:16:04.035 [main] AddtoCart - get product name
+[DEBUG] 2025-05-15 14:16:04.678 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-15 14:16:04.694 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-15 14:16:04.702 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-15 14:16:04.745 [main] AddtoCart -  compare between the carts  
+[INFO ] 2025-05-15 14:49:29.894 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 14:49:30.065 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 14:49:30.092 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 14:49:30.137 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 14:49:30.178 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 14:49:30.868 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-15 14:50:27.703 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 14:50:27.860 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 14:50:27.887 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 14:50:27.932 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 14:50:27.972 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 14:50:28.696 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-15 15:18:18.675 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:18:18.840 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:18:18.867 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:18:18.913 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:18:18.958 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:18:19.634 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:18:20.056 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 15:18:20.386 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:18:20.536 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:18:20.560 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:18:20.597 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:18:20.640 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:18:21.357 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:18:21.759 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 15:19:27.469 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:19:27.760 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:19:27.788 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:19:27.832 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:19:27.873 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:19:28.528 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:19:28.957 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 15:19:29.286 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:19:29.429 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:19:29.455 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:19:29.493 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:19:29.533 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:19:30.170 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:19:30.560 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 15:20:16.426 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:20:16.586 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:20:16.623 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:20:16.681 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:20:16.731 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:20:17.397 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:20:17.817 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 15:20:18.143 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 15:20:18.295 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 15:20:18.319 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 15:20:18.354 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 15:20:18.397 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 15:20:19.044 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 15:20:19.452 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 21:07:15.073 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:07:15.247 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:07:15.281 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:07:15.339 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:07:15.387 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:07:16.601 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:07:16.998 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:07:17.033 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 21:07:17.361 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:07:17.523 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:07:17.552 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:07:17.595 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:07:17.664 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:07:18.327 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:07:18.718 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:07:18.741 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 21:07:19.068 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:07:19.220 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:07:19.255 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:07:19.299 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:07:19.356 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:07:20.017 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:07:20.389 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:07:21.037 [main] OrdersHistory - log out 
+[INFO ] 2025-05-15 21:13:11.148 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:13:11.316 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:13:11.343 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:13:11.383 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:13:11.420 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:13:12.195 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:13:12.605 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:13:12.629 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 21:13:12.999 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:13:13.152 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:13:13.175 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:13:13.207 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:13:13.241 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:13:13.924 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:13:14.343 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:13:14.361 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-15 21:13:14.690 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-15 21:13:14.832 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:13:14.866 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:13:14.913 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:13:14.956 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:13:15.632 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:13:16.011 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:13:16.695 [main] OrdersHistory - log out 
+[DEBUG] 2025-05-15 21:13:17.055 [main] OrdersHistory - sign in
+[DEBUG] 2025-05-15 21:13:17.086 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-15 21:13:17.109 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-15 21:13:17.142 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-15 21:13:17.179 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-15 21:13:17.822 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-15 21:13:18.185 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-15 21:13:18.198 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-21 12:08:30.859 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:31.029 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:31.057 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:31.098 [main] Login - enter username in username field 
+[DEBUG] 2025-05-21 12:08:31.135 [main] Login - enter password in password field 
+[DEBUG] 2025-05-21 12:08:32.521 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:32.539 [main] Login - Getting the error message
+[DEBUG] 2025-05-21 12:08:32.539 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-21 12:08:32.850 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:33.001 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:33.025 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:33.062 [main] Login - enter username in username field 
+[DEBUG] 2025-05-21 12:08:33.098 [main] Login - enter password in password field 
+[DEBUG] 2025-05-21 12:08:33.745 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:33.754 [main] Login - Getting the error message
+[DEBUG] 2025-05-21 12:08:33.754 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-21 12:08:34.076 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:34.218 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:34.241 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:34.275 [main] Login - enter username in username field 
+[DEBUG] 2025-05-21 12:08:34.318 [main] Login - enter password in password field 
+[DEBUG] 2025-05-21 12:08:34.964 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:34.977 [main] Login - Getting the error message
+[DEBUG] 2025-05-21 12:08:34.977 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-21 12:08:35.291 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:35.437 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:35.463 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:35.499 [main] Login - enter username in username field 
+[DEBUG] 2025-05-21 12:08:35.534 [main] Login - enter password in password field 
+[DEBUG] 2025-05-21 12:08:36.159 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:36.170 [main] Login - Getting the error message
+[DEBUG] 2025-05-21 12:08:36.170 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-21 12:08:36.495 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:36.645 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:36.677 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:36.711 [main] Login - enter username in username field 
+[DEBUG] 2025-05-21 12:08:36.743 [main] Login - enter password in password field 
+[DEBUG] 2025-05-21 12:08:37.377 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:37.385 [main] Login - Getting the error message
+[DEBUG] 2025-05-21 12:08:37.385 [main] Login - comparing the error message expect with execepted error message
+[INFO ] 2025-05-21 12:08:37.706 [main] Login - opening Sign in screen
+[DEBUG] 2025-05-21 12:08:37.845 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:37.868 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:37.904 [main] Login - enter wrong username in username field chance : 0
+[DEBUG] 2025-05-21 12:08:37.946 [main] Login - enter wrong password in password field chance : 0
+[DEBUG] 2025-05-21 12:08:38.559 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:38.591 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:38.614 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:38.648 [main] Login - enter wrong username in username field chance : 1
+[DEBUG] 2025-05-21 12:08:38.685 [main] Login - enter wrong password in password field chance : 1
+[DEBUG] 2025-05-21 12:08:39.299 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:39.331 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:39.354 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:39.390 [main] Login - enter wrong username in username field chance : 2
+[DEBUG] 2025-05-21 12:08:39.429 [main] Login - enter wrong password in password field chance : 2
+[DEBUG] 2025-05-21 12:08:40.049 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:40.078 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:40.099 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:40.136 [main] Login - enter wrong username in username field chance : 3
+[DEBUG] 2025-05-21 12:08:40.171 [main] Login - enter wrong password in password field chance : 3
+[DEBUG] 2025-05-21 12:08:40.774 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:40.803 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:40.825 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:40.861 [main] Login - enter wrong username in username field chance : 4
+[DEBUG] 2025-05-21 12:08:40.902 [main] Login - enter wrong password in password field chance : 4
+[DEBUG] 2025-05-21 12:08:41.515 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:41.541 [main] Login - clear username field 
+[DEBUG] 2025-05-21 12:08:41.563 [main] Login - clear password field 
+[DEBUG] 2025-05-21 12:08:41.596 [main] Login - enter right username in username field 
+[DEBUG] 2025-05-21 12:08:41.631 [main] Login - enter right password in password field 
+[DEBUG] 2025-05-21 12:08:42.272 [main] Login - click the sign up button
+[DEBUG] 2025-05-21 12:08:42.285 [main] Login - if showing block message 
