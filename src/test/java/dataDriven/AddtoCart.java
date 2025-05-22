@@ -130,17 +130,17 @@ public class AddtoCart {
 		logger.debug(" get all products in cart ");
 
 		if (productsInCart.size() - 2 != products.size()) {
-			System.out.println("test failed");
+			logger.debug("test failed");
 
 		} else {
 			List<WebElement> cells = productsInCart.get(1).findElements(By.tagName("td"));
 			logger.debug(" compare between the carts  ");
 			productName = cells.get(0).getText();
 			if (products.containsKey(productName)) {
-				System.out.println("test passed");
+				logger.debug("test passed");
 
 			} else {
-				System.out.println("test failed");
+				logger.debug("test failed");
 
 			}
 
@@ -183,7 +183,7 @@ public class AddtoCart {
 		logger.debug(" get all products in cart ");
 		
 		if (productsInCart.size() - 2 != products.size()) {
-			System.out.println("test failed");
+			logger.debug("test failed");
 
 		} else {
 			boolean pass=true;
@@ -192,7 +192,7 @@ public class AddtoCart {
 			logger.debug(" compare between the carts  ");
 			productName = cells.get(0).getText();
 			if (!products.containsKey(productName)) {
-				System.out.println("test failed");
+				logger.debug("test failed");
 				i=products.size();
 				pass=false;
 
@@ -201,7 +201,7 @@ public class AddtoCart {
 
 		}
 			if(pass) {
-				System.out.println("test passed");
+				logger.debug("test passed");
 
 			}
 		}
@@ -280,7 +280,7 @@ public class AddtoCart {
 		}
 		
 		if (productsInCart.size() - 2 != products.size()) {
-			System.out.println("test failed");
+			logger.debug("test failed");
 
 		} else {
 			boolean pass=true;
@@ -291,7 +291,7 @@ public class AddtoCart {
 			WebElement input =  (WebElement) cells.get(4).findElement(By.tagName("input"));
 			int quantity = Integer.parseInt(input.getAttribute("value"));
 			if (!products.containsKey(productName)||products.get(productName)!=quantity) {
-				System.out.println("test failed");
+				logger.debug("test failed");
 				i=products.size();
 				pass=false;
 
@@ -300,7 +300,7 @@ public class AddtoCart {
 
 		}
 			if(pass) {
-				System.out.println("test passed");
+				logger.debug("test passed");
 
 			}
 		}

@@ -155,19 +155,19 @@ public class Login {
 			logger.debug("comparing the error message expect with execepted error message");
 			if (expectedError.isEmpty()) {
 				if (errors.size() == 0) {
-					System.out.println("test passed");
+					logger.debug("test passed");
 
 				} else {
-					System.out.println("test failed");
+					logger.debug("test failed");
 
 				}
 
 			} else {
 				if (errors.get(0).getText().equalsIgnoreCase(expectedError)) {
-					System.out.println("test passed");
+					logger.debug("test passed");
 
 				} else {
-					System.out.println("test failed");
+					logger.debug("test failed");
 
 				}
 
@@ -227,10 +227,10 @@ public class Login {
 		logger.debug("if showing block message ");
 
 		if (errors.size() == 0) {
-			System.out.println("test failed");
+			logger.debug("test failed");
 
 		} else {
-			System.out.println("test passed");
+			logger.debug("test passed");
 
 		}
 

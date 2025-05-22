@@ -1,7 +1,10 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegisterPage {
@@ -35,6 +38,8 @@ public class RegisterPage {
     private By categorySelect = By.xpath("//*[@id=\"CenterForm\"]/form/table[3]/tbody/tr[2]/td[2]/select");
     private By myListCheckbox = By.xpath("//*[@id=\"CenterForm\"]/form/table[3]/tbody/tr[3]/td[2]/input");
     private By myBannerCheckbox = By.xpath("//*[@id=\"CenterForm\"]/form/table[3]/tbody/tr[4]/td[2]/input");
+	private By error_Message = By.className("error-msg");
+
 
     private By saveButton = By.xpath("//*[@id=\\\"CenterForm\\\"]/form/div/button");
 
@@ -70,6 +75,27 @@ public class RegisterPage {
             driver.findElement(myBannerCheckbox).click();
         }
     }
+    
+    public void clearAllFields() {
+        driver.findElement(userIdInput).clear();
+        driver.findElement(passwordInput).clear();
+        driver.findElement(repeatPasswordInput).clear();
+
+        driver.findElement(firstNameInput).clear();
+        driver.findElement(lastNameInput).clear();
+        driver.findElement(emailInput).clear();
+        driver.findElement(phoneInput).clear();
+        driver.findElement(address1Input).clear();
+        driver.findElement(address2Input).clear();
+        driver.findElement(cityInput).clear();
+        driver.findElement(stateInput).clear();
+        driver.findElement(zipInput).clear();
+        driver.findElement(countryInput).clear();
+    }
+    
+    public List<WebElement> getMessageError() {
+		return driver.findElements(error_Message);
+	}
 
     public void submit() {
         driver.findElement(saveButton).click();

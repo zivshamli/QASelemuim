@@ -9,7 +9,10 @@ public class MenuPage {
 
 	private By myOrdersLink = By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]");
 	private By logoutLink = By.xpath("//*[@id=\"Menu\"]/div[1]/a[4]");
-	private By signupLink = By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]");
+	private By myAccountLink = By.xpath("//*[@id=\"Menu\"]/div[1]/a[3]");
+	private By signinLink = By.xpath("//*[@id=\"Menu\"]/div[1]/a[2]");
+
+
 
 	public MenuPage(WebDriver driver) {
 		this.driver = driver;
@@ -23,7 +26,11 @@ public class MenuPage {
 		driver.findElement(logoutLink).click();
 	}
 
-	public void signup() {
-		driver.findElement(signupLink).click();
+	public void signin() {
+		driver.findElement(signinLink).click();
+	}
+	
+	public void gotoMyAccount() {
+		driver.findElement(myAccountLink).click();
 	}
 }

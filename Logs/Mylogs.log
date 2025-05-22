@@ -594,3 +594,167 @@
 [DEBUG] 2025-05-21 15:35:48.916 [main] OrdersHistory - click the sign up button
 [DEBUG] 2025-05-21 15:35:49.304 [main] OrdersHistory - go to my orders 
 [DEBUG] 2025-05-21 15:35:49.316 [main] OrdersHistory - check if the orders are shown 
+[INFO ] 2025-05-22 06:27:17.762 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:27:17.933 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:27:17.960 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:27:18.007 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:27:18.046 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:27:18.704 [main] OrdersHistory - click the sign up button
+[ERROR] 2025-05-22 06:27:19.395 [main] OrdersHistory - Mismatch in enableMyList: expected 'false' but found 'true'
+[DEBUG] 2025-05-22 06:27:19.395 [main] OrdersHistory - test failed
+[INFO ] 2025-05-22 06:28:29.531 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:28:29.687 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:28:29.714 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:28:29.757 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:28:29.798 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:28:30.453 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:28:31.176 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 06:28:31.176 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 06:43:22.703 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:43:22.867 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:43:22.895 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:43:22.940 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:43:22.982 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:43:23.641 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 06:43:24.063 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 06:43:24.090 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 06:43:24.090 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 06:43:24.415 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:43:24.583 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:43:24.607 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:43:24.644 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:43:24.684 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:43:25.332 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 06:43:25.709 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 06:43:25.726 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 06:43:25.727 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 06:43:26.060 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:43:26.191 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:43:26.216 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:43:26.250 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:43:26.293 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:43:26.932 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 06:43:27.301 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 06:43:27.947 [main] OrdersHistory - log out 
+[DEBUG] 2025-05-22 06:43:28.330 [main] OrdersHistory - sign in
+[DEBUG] 2025-05-22 06:43:28.361 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:43:28.385 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:43:28.420 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:43:28.461 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:43:29.096 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 06:43:29.452 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 06:43:29.466 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 06:43:29.466 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 06:45:54.028 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:45:54.184 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:45:54.217 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:45:54.271 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:45:54.316 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:45:54.956 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:45:55.665 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 06:45:55.665 [main] OrdersHistory - test passed
+[DEBUG] 2025-05-22 06:45:56.281 [main] OrdersHistory - now in this test we enter to user we signout and than we enter to other user and compare parts
+[DEBUG] 2025-05-22 06:45:56.680 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:45:56.706 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:45:56.742 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:45:56.782 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:45:57.404 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:51:13.718 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:51:13.889 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:51:13.917 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:51:13.963 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:51:14.002 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:51:14.645 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:51:15.339 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 06:51:15.339 [main] OrdersHistory - test passed
+[DEBUG] 2025-05-22 06:51:15.953 [main] OrdersHistory - now in this test we enter to user we signout and than we enter to other user and compare parts
+[DEBUG] 2025-05-22 06:51:16.344 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:51:16.367 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:51:16.402 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:51:16.443 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:51:17.067 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:55:20.692 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:55:20.855 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:55:20.884 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:55:20.928 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:55:20.969 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:55:21.637 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:55:22.339 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 06:55:22.340 [main] OrdersHistory - test passed
+[DEBUG] 2025-05-22 06:55:22.984 [main] OrdersHistory - now in this test we enter to user we signout and than we enter to other user and compare parts
+[DEBUG] 2025-05-22 06:55:23.392 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:55:23.417 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:55:23.450 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:55:23.489 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:55:24.130 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:57:52.727 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 06:57:52.891 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:57:52.919 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:57:52.965 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:57:53.003 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:57:53.666 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 06:57:54.368 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 06:57:54.368 [main] OrdersHistory - test passed
+[DEBUG] 2025-05-22 06:57:54.993 [main] OrdersHistory - now in this test we enter to user we signout and than we enter to other user and compare parts
+[DEBUG] 2025-05-22 06:57:55.392 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 06:57:55.418 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 06:57:55.454 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 06:57:55.492 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 06:57:56.127 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 07:00:25.798 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 07:00:25.958 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:25.987 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:26.032 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:26.073 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:26.743 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 07:00:27.136 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 07:00:27.161 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 07:00:27.162 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 07:00:27.491 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 07:00:27.645 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:27.668 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:27.708 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:27.748 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:28.407 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 07:00:28.813 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 07:00:28.826 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 07:00:28.826 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 07:00:29.170 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 07:00:29.317 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:29.342 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:29.375 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:29.415 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:30.055 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 07:00:30.437 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 07:00:31.078 [main] OrdersHistory - log out 
+[DEBUG] 2025-05-22 07:00:31.453 [main] OrdersHistory - sign in
+[DEBUG] 2025-05-22 07:00:31.485 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:31.511 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:31.552 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:31.593 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:32.251 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 07:00:32.611 [main] OrdersHistory - go to my orders 
+[DEBUG] 2025-05-22 07:00:32.621 [main] OrdersHistory - check if the orders are shown 
+[DEBUG] 2025-05-22 07:00:32.621 [main] OrdersHistory - test passed
+[INFO ] 2025-05-22 07:00:52.748 [main] OrdersHistory - opening Sign in screen
+[DEBUG] 2025-05-22 07:00:52.911 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:52.940 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:52.984 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:53.025 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:53.697 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 07:00:54.411 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 07:00:54.411 [main] OrdersHistory - test passed
+[DEBUG] 2025-05-22 07:00:55.046 [main] OrdersHistory - now in this test we enter to user we signout and than we enter to other user and compare parts
+[DEBUG] 2025-05-22 07:00:55.475 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:55.501 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:55.537 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:55.577 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:56.229 [main] OrdersHistory - click the sign up button
+[DEBUG] 2025-05-22 07:00:56.860 [main] OrdersHistory -  we enter to other user and compare parts
+[DEBUG] 2025-05-22 07:00:57.248 [main] OrdersHistory - clear username field 
+[DEBUG] 2025-05-22 07:00:57.271 [main] OrdersHistory - clear password field 
+[DEBUG] 2025-05-22 07:00:57.306 [main] OrdersHistory - enter username in username field 
+[DEBUG] 2025-05-22 07:00:57.343 [main] OrdersHistory - enter password in password field 
+[DEBUG] 2025-05-22 07:00:57.995 [main] OrdersHistory - click the sign up button
+[INFO ] 2025-05-22 07:00:58.595 [main] OrdersHistory - All fields match!
+[DEBUG] 2025-05-22 07:00:58.595 [main] OrdersHistory - test passed

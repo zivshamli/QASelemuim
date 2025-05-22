@@ -1,0 +1,26 @@
+[
+  {
+    "userId": "j2ee",
+    "password": "j2ee",
+    "firstName": "yiseth",
+    "lastName": "a",
+    "email": "A@a",
+    "phone": "64560456456",
+    "address1": "hankic1",
+    "address2": "john doe !2nd st",
+    "city": "Medellin",
+    "state": "W^S",
+    "zip": "1234567",
+    "country": "USA",
+    "languagePreference": "English",
+    "favouriteCategory": "Birds",
+    "enableMyList": true,
+    "enableMyBanner": true,
+    "description": null
+  },
+  {
+    "userId": "ziv1",
+    "password": "a1111",
+    "description": "Valid username "
+  }
+]
