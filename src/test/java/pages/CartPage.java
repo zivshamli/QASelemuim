@@ -13,9 +13,27 @@ public class CartPage {
     public CartPage(WebDriver driver) {
         this.driver = driver;
     }
-
+    private By productsInCart=By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr");
+    private By proccedPayment=By.xpath("//*[@id=\"Cart\"]/a");
+    
     // Get all products in the cart
     public List<WebElement> getProductsInCart() {
-        return driver.findElements(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr"));
+        return driver.findElements(productsInCart);
     }
+    public void removeFromCart(int row) {
+        String xpath = String.format("//*[@id=\"Cart\"]/form/table/tbody/tr[%d]/td[8]/a", row);
+        driver.findElement(By.xpath(xpath)).click();
+    }
+    public void RemoveAll() {
+        String xpath = String.format("//*[@id=\"Cart\"]/form/table/tbody/tr[%d]/td[5]/a", this.getProductsInCart().size());
+        driver.findElement(By.xpath(xpath)).click();
+    }
+    public void updateCart() {
+        String xpath = String.format("//*[@id=\"Cart\"]/form/table/tbody/tr[%d]/td[2]/button", this.getProductsInCart().size());
+        driver.findElement(By.xpath(xpath)).click();
+    }
+    public void proccedToPayment() {
+    	driver.findElement(proccedPayment).click();
+    }
+    
 }

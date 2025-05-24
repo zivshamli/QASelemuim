@@ -25,7 +25,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.LoginPage;
 import pages.MenuPage;
 import pages.MyAccountPage;
-import pages.OrderPage;
+import pages.OrdersPage;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;

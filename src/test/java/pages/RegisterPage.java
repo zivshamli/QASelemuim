@@ -41,7 +41,7 @@ public class RegisterPage {
 	private By error_Message = By.className("error-msg");
 
 
-    private By saveButton = By.xpath("//*[@id=\\\"CenterForm\\\"]/form/div/button");
+    private By saveButton = By.xpath("//*[@id=\"CenterForm\"]/form/div/button");
 
     public void fillUserInformation(String userId, String password, String repeatPassword) {
         driver.findElement(userIdInput).sendKeys(userId);

@@ -1,9 +1,9 @@
 [
   {
     "description": "Valid username and password with order",
-    "username": "j2ee",
-    "password": "j2ee",
-    "orders": 101
+    "username": "j2ee1",
+    "password": "j2ee1",
+    "orders": 3
   },
   {
     "description": "Valid username and password without order",

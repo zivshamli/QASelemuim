@@ -22,9 +22,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pages.CartPage;
+import pages.CatalogPage;
+import pages.ConfirmPaymentPage;
 import pages.LoginPage;
 import pages.MenuPage;
-import pages.OrderPage;
+import pages.OrderInfoPage;
+import pages.OrdersPage;
+import pages.QuickLinkPage;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
@@ -88,7 +93,8 @@ public class OrdersHistory {
 	private WebDriver driver;
 	private Map<String, Object> vars;
 	JavascriptExecutor js;
-	private JSONArray user;
+	private JSONArray user ,products;
+
 	private Logger logger;
 
 	@After
@@ -105,11 +111,13 @@ public class OrdersHistory {
 		vars = new HashMap<String, Object>();
 		try {
 			JSONParser jsonParser = new JSONParser();
-			FileReader reader;
+			FileReader reader,reader2;
 			reader = new FileReader("correctUser.json");
+			reader2=new FileReader("products.json");
 
 			// Read JSON file
 			user = (JSONArray) jsonParser.parse(reader);
+			products=(JSONArray) jsonParser.parse(reader2);
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -125,7 +133,7 @@ public class OrdersHistory {
 			JSONObject obj = (JSONObject) user.get(i);
 			Long orderLong = (Long) obj.get("orders");
 			int order = orderLong.intValue();
-
+			logger.debug((String)obj.get("description"));
 
 			driver.get("https://jpetstore.aspectran.com/account/signonForm");
 			logger.info("opening Sign in screen");
@@ -134,7 +142,7 @@ public class OrdersHistory {
 			MenuPage menu= new MenuPage(driver);
 			menu.goToOrders();
 			logger.debug("go to my orders ");
-			OrderPage orderPage = new OrderPage(driver);
+			OrdersPage orderPage = new OrdersPage(driver);
 
 
 
@@ -144,10 +152,16 @@ public class OrdersHistory {
 			
 
 			if (orders.size() - 1 == order) {
-				logger.debug("test failed");
+				logger.debug("test passed");
 
 			} else {
+				if(orderPage.notOrders())
+				{
 				logger.debug("test passed");
+
+				}
+				else
+				logger.debug("test failed");
 
 			}
 		}
@@ -156,9 +170,8 @@ public class OrdersHistory {
 
 
 		driver.get("https://jpetstore.aspectran.com/account/signonForm");
-		logger.info("opening Sign in screen");
-		driver.manage().window().setSize(new Dimension(1004, 724));
-
+	
+		logger.debug("test enter with user and then log out and enter to second user to see that the orders are of the second user ");
 		login(driver, obj, logger);
 		
 		MenuPage menu= new MenuPage(driver);
@@ -173,21 +186,75 @@ public class OrdersHistory {
 		login(driver, obj, logger);
 		menu.goToOrders();
 		logger.debug("go to my orders ");
-		OrderPage orderPage = new OrderPage(driver);
+		OrdersPage orderPage = new OrdersPage(driver);
 		List<WebElement> orders =orderPage.getOrders();
 		Long orderLong = (Long) obj.get("orders");
 		int order = orderLong.intValue();		
 		logger.debug("check if the orders are shown ");
-
 		
-
 		if (orders.size() - 1 == order) {
-			logger.debug("test failed");
-
-		} else {
 			logger.debug("test passed");
 
-		}		
+		} else {
+			if(orderPage.notOrders())
+			{
+			logger.debug("test passed");
+
+			}
+			else
+			logger.debug("test failed");
+
+		}
+		
+		logger.debug("test check if order that add will update the history");
+		makeOrder(driver);
+		menu.goToOrders();
+		logger.debug("go to my orders ");
+		 orderPage = new OrdersPage(driver);
+		 orders =orderPage.getOrders();
+		 orderLong = (Long) obj.get("orders");
+		 order = orderLong.intValue();	
+	
+		logger.debug("check if the orders are shown ");
+		
+		if (orders.size() - 1 == (order+1)) {
+			logger.debug("test passed");
+
+		} else {
+			logger.debug("test failed");
+
+		}
+		
+		
+		logger.debug("test check if order that remove will update the history");
+		orderPage.gotoLatestOrder();
+		logger.debug("go to last order");
+		OrderInfoPage orderinfo= new OrderInfoPage(driver);
+		orderinfo.deleteOrder();
+		logger.debug("delete the last order");
+		 orderPage = new OrdersPage(driver);
+		 orders =orderPage.getOrders();
+		 orderLong = (Long) obj.get("orders");
+		 order = orderLong.intValue();		
+		logger.debug("check if the orders are shown ");
+		
+		if (orders.size() - 1 == order) {
+			logger.debug("test passed");
+
+		} else {
+			if(orderPage.notOrders())
+			{
+			logger.debug("test passed");
+
+			}
+			else
+			logger.debug("test failed");
+
+		}
+		
+		
+
+		
 		
 		
 		
@@ -213,6 +280,7 @@ public class OrdersHistory {
 			System.exit(0);
 		}
 	}
+	
 	public static void login(WebDriver driver ,JSONObject obj,Logger logger) {
 		String username = (String) obj.get("username");
 		String password = (String) obj.get("password");
@@ -234,5 +302,40 @@ public class OrdersHistory {
 
 				
 	}
+	
+	public  void makeOrder(WebDriver driver)
+	{
+		QuickLinkPage quicklinkPage=new QuickLinkPage(driver);
+		quicklinkPage.clickBirdsQuickLink();
+		logger.debug("go to bird section");
+
+		CatalogPage catalog=new CatalogPage(driver);
+		JSONObject obj = (JSONObject)products.get(0);
+		Long row = (Long) obj.get("row");
+		int rowInt = row.intValue();
+		catalog.selectProduct(rowInt);
+		logger.debug("select product");
+
+		catalog.addToCart(rowInt);
+		logger.debug("add  the product to the cart");
+
+		CartPage cart=new CartPage(driver);
+		cart.proccedToPayment();
+		logger.debug("procced to check out");
+
+		ConfirmPaymentPage confirmPage=new ConfirmPaymentPage(driver);
+		confirmPage.continuetoConfirm();
+		logger.debug("confirm order");
+
+		confirmPage.continuetoConfirm();
+		logger.debug("confirm payment");
+
+
+		
+		
+
+		
+	}
+	
 
 }

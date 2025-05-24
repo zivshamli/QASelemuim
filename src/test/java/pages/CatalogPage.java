@@ -12,21 +12,17 @@ public class CatalogPage {
         this.driver = driver;
     }
 
-    // Navigate to product category (e.g., fish)
-    
-    public void goToCategory(String categoryXpath) {
-        driver.findElement(By.xpath(categoryXpath)).click();
-    }
+   
 
     // Click on a product at a specific row and column
-    public void selectProduct(int row, int col) {
-        String xpath = String.format("//*[@id=\"Catalog\"]/table/tbody/tr[%d]/td[%d]/a", row, col);
+    public void selectProduct(int row) {
+        String xpath = String.format("//*[@id=\"Catalog\"]/table/tbody/tr[%d]/td[%d]/a", row,1);
         driver.findElement(By.xpath(xpath)).click();
     }
 
     // Get the name of a product at a specific row and column
     public String getProductName(int row, int col) {
-        String xpath = String.format("//*[@id=\"Catalog\"]/table/tbody/tr[%d]/td[%d]/a", row, col);
+        String xpath = String.format("//*[@id=\"Catalog\"]/table/tbody/tr[%d]/td[%d]/a", row, 1);
         return driver.findElement(By.xpath(xpath)).getText();
     }
 

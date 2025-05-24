@@ -1,8 +1,8 @@
 [
   {
     "description": "User does not exist in the system, with valid password",
-    "userId": "notExistUser1",
-    "password": "Valid123!",
+    "userId": "notExistUserFive",
+    "password": "Valid1235!",
     "firstName": "Test",
     "lastName": "Case1",
     "email": "user1@example.com",
@@ -39,7 +39,7 @@
   },
   {
     "description": "User does not exist in the system, with invalid password",
-    "userId": "notExistUser2",
+    "userId": "notExistUserZero",
     "password": "x",
     "firstName": "Test",
     "lastName": "Case2",
@@ -96,7 +96,7 @@
   },
   {
     "description": "New username with existing password",
-    "userId": "newUserSamePassword",
+    "userId": "newUserSamePasswordFour",
     "password": "j2ee",
     "firstName": "Test",
     "lastName": "Case5",
@@ -115,8 +115,8 @@
   },
   {
     "description": "New username with special characters",
-    "userId": "newUser_!@#123",
-    "password": "SpecPass@1",
+    "userId": "newUser_!@#1290",
+    "password": "SpecPass@2",
     "firstName": "Test",
     "lastName": "Case6",
     "email": "user6@example.com",

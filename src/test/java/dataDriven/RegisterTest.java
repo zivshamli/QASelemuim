@@ -24,7 +24,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pages.LoginPage;
 import pages.MenuPage;
-import pages.OrderPage;
+import pages.OrdersPage;
 import pages.RegisterPage;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -121,34 +121,144 @@ public class RegisterTest {
 
 	@Test
 	public void simple() throws InterruptedException {
-		RegisterPage regPage=new RegisterPage(driver);			
+		RegisterPage regPage = new RegisterPage(driver);
 		driver.manage().window().setSize(new Dimension(1004, 724));
-		for(int i =0;i<user.size();i++ ) {
+		for (int i = 0; i < user.size(); i++) {
 			regPage.open();
+			logger.debug("open sign up site");
 			JSONObject obj = (JSONObject) user.get(i);
 			regPage.clearAllFields();
-			regPage.fillUserInformation((String) obj.get("userId"), (String) obj.get("password"),(String) obj.get("password"));
-			
-		}
-		
-	
-		
-		
-		
+			logger.debug("clear all fields");
+			regPage.fillUserInformation((String) obj.get("userId"), (String) obj.get("password"),
+					(String) obj.get("password"));
+			regPage.fillAccountInformation((String) obj.get("firstName"), (String) obj.get("lastName"),
+					(String) obj.get("email"), (String) obj.get("phone"), (String) obj.get("address1"),
+					(String) obj.get("address2"), (String) obj.get("city"), (String) obj.get("state"),
+					(String) obj.get("zip"), (String) obj.get("country"));
+			regPage.selectPreferences((String) obj.get("languagePreference"), (String) obj.get("favouriteCategory"),
+					(Boolean) obj.get("enableMyList"), (Boolean) obj.get("enableMyBanner"));
+			logger.debug("enter user details " + (String) obj.get("description"));
 
-		
-		
-		
-		
+			regPage.submit();
+			logger.debug("submit user");
+
+			List<WebElement> errors = regPage.getMessageError();
+			logger.debug("fetch error message");
+
+			switch (i) {
+			case 0: {
+				if (errors.size() == 0) {
+					logger.debug("test passed");
+
+				} else {
+					logger.debug("test failed");
+
+				}
+				break;
+
+			}
+			case 1: {
+				if (errors.size() == 0) {
+					logger.debug("test failed");
+
+				} else {
+					for (WebElement el : errors) {
+						String text = el.getText().trim();
+						if(!text.isEmpty())
+						logger.debug("error display :" + text);
+
+					}
+					logger.debug("test passed");
+
+				}
+				break;
+			}
+			case 2: {
+				if (errors.size() == 0) {
+					logger.debug("test failed");
+
+				} else {
+					for (WebElement el : errors) {
+						String text = el.getText().trim();
+						if(!text.isEmpty())
+						logger.debug("error display :" + text);
+
+					}
+					logger.debug("test passed");
+
+				}
+				break;
+			}
+			case 3: {
+				if (errors.size() == 0) {
+					logger.debug("test failed");
+
+				} else {
+					for (WebElement el : errors) {
+						String text = el.getText().trim();
+						if(!text.isEmpty())
+						logger.debug("error display :" + text);
+
+					}
+					logger.debug("test passed");
+
+				}
+				break;
+			}
+			case 4: {
+				if (errors.size() == 0) {
+					logger.debug("test failed");
+
+				} else {
+					for (WebElement el : errors) {
+						String text = el.getText().trim();
+						if(!text.isEmpty())
+						logger.debug("error display :" + text);
+
+					}
+					logger.debug("test passed");
+
+				}
+				break;
+			}
+			case 5: {
+				if (errors.size() == 0) {
+					logger.debug("test passed");
+
+				} else {
+					logger.debug("test failed");
+
+				}
+				break;
+
+			}
+			case 6: {
+				if (errors.size() == 0) {
+					logger.debug("test failed");
+
+				} else {
+					for (WebElement el : errors) {
+						String text = el.getText().trim();
+						if(!text.isEmpty())
+						logger.debug("error display :" + text);
+
+					}
+					logger.debug("test passed");
+
+				}
+				break;
+			}
+
+			}
+		}
 
 	}
-	
 
 	public static void main(String args[]) {
 		JUnitCore junit = new JUnitCore();
 		junit.addListener(new TextListener(System.out));
 		org.junit.runner.Result result = junit.run(RegisterTest.class); // Replace "SampleTest" with the name of your
-																			// class
+																		// class
 		if (result.getFailureCount() > 0) {
 			System.out.println("Test failed.");
 			System.exit(1);
@@ -159,4 +269,3 @@ public class RegisterTest {
 	}
 
 }
-
