@@ -2103,3 +2103,876 @@
 [DEBUG] 2025-05-24 15:15:25.521 [main] AddtoCart -  compare between the carts  
 [DEBUG] 2025-05-24 15:15:25.560 [main] AddtoCart -  compare between the carts  
 [DEBUG] 2025-05-24 15:15:25.582 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 10:46:56.864 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 10:46:57.378 [main] AddtoCart - go to fish section
+[INFO ] 2025-05-25 10:46:57.671 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 10:46:57.754 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:46:57.780 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:46:58.188 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:46:58.414 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:46:58.415 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:46:58.440 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:46:58.451 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:46:58.459 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 10:46:58.499 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 10:46:58.601 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:46:58.626 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:46:59.306 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:46:59.306 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:46:59.322 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:46:59.334 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:46:59.342 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 10:46:59.381 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 10:46:59.439 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:46:59.803 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:46:59.822 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:00.280 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:47:00.464 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:00.465 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:00.645 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:00.667 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:00.859 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 10:47:01.236 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:01.252 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:01.306 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:01.306 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:01.680 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 10:47:01.927 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:01.928 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:01.937 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:47:01.945 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:01.958 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:01.964 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 10:47:02.001 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 10:47:02.068 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:02.100 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:02.367 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:47:02.754 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:02.776 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:02.776 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:02.785 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:02.789 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:47:02.799 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:02.815 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:02.825 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 10:47:02.871 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 10:47:03.246 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:47:03.440 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:03.441 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:03.604 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:03.630 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:03.798 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 10:47:04.175 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:04.194 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:04.285 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:04.286 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:04.648 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 10:47:04.831 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:04.831 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:05.017 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 10:47:05.040 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:05.187 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:47:05.556 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 10:47:05.577 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:05.697 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:05.698 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 10:47:06.084 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 10:47:06.205 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:06.218 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:47:06.225 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:06.266 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:06.288 [main] AddtoCart - test passed
+[DEBUG] 2025-05-25 10:47:06.499 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 10:47:06.517 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 10:47:07.170 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 10:47:07.183 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 10:47:07.190 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:07.231 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 10:47:07.252 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:02:59.958 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 13:03:00.475 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:03:00.845 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:00.870 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:01.515 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:01.516 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:03:01.535 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:03:01.553 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:03:01.563 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:03:01.605 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:03:02.501 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:03:02.889 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:02.907 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:03.555 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:03.556 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:03:03.924 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:04.294 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:04.310 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:04.962 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:04.963 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:03:04.976 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:03:04.984 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:03:04.997 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:03:05.003 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:03:05.040 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:03:05.411 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:03:05.773 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:05.789 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:06.438 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:06.439 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:03:06.834 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:07.193 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:07.211 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:07.858 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:07.859 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:03:08.221 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:03:08.580 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 13:03:08.596 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:09.241 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:03:09.250 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:03:09.256 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:03:09.296 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:03:09.318 [main] AddtoCart - test passed
+[DEBUG] 2025-05-25 13:03:09.686 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:10.046 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:10.066 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:10.725 [main] AddtoCart -  add product to cart time1
+[DEBUG] 2025-05-25 13:03:11.078 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:11.437 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:11.459 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:12.088 [main] AddtoCart -  add product to cart time2
+[DEBUG] 2025-05-25 13:03:12.486 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:12.845 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:12.867 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:13.508 [main] AddtoCart -  add product to cart time3
+[DEBUG] 2025-05-25 13:03:13.876 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:14.232 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:14.254 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:14.892 [main] AddtoCart -  add product to cart time4
+[DEBUG] 2025-05-25 13:03:15.255 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:15.618 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:15.633 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:16.265 [main] AddtoCart -  add product to cart time5
+[DEBUG] 2025-05-25 13:03:16.623 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:16.986 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:17.001 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:17.643 [main] AddtoCart -  add product to cart time6
+[DEBUG] 2025-05-25 13:03:18.000 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:18.369 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:18.386 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:19.033 [main] AddtoCart -  add product to cart time7
+[DEBUG] 2025-05-25 13:03:19.390 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:19.757 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:19.773 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:20.423 [main] AddtoCart -  add product to cart time8
+[DEBUG] 2025-05-25 13:03:20.785 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:21.164 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:21.183 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:21.830 [main] AddtoCart -  add product to cart time9
+[DEBUG] 2025-05-25 13:03:22.197 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:22.551 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:22.574 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:23.211 [main] AddtoCart -  add product to cart time10
+[DEBUG] 2025-05-25 13:03:23.566 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:23.931 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:23.951 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:24.590 [main] AddtoCart -  add product to cart time11
+[DEBUG] 2025-05-25 13:03:24.958 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:25.320 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:25.341 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:25.988 [main] AddtoCart -  add product to cart time12
+[DEBUG] 2025-05-25 13:03:26.341 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:26.706 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:26.724 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:27.360 [main] AddtoCart -  add product to cart time13
+[DEBUG] 2025-05-25 13:03:27.725 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:28.082 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:28.100 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:28.751 [main] AddtoCart -  add product to cart time14
+[DEBUG] 2025-05-25 13:03:29.123 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:29.488 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:29.503 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:30.141 [main] AddtoCart -  add product to cart time15
+[DEBUG] 2025-05-25 13:03:30.512 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:30.879 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:30.899 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:31.535 [main] AddtoCart -  add product to cart time16
+[DEBUG] 2025-05-25 13:03:31.906 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:32.268 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:32.283 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:32.932 [main] AddtoCart -  add product to cart time17
+[DEBUG] 2025-05-25 13:03:33.300 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:33.661 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:33.685 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:34.331 [main] AddtoCart -  add product to cart time18
+[DEBUG] 2025-05-25 13:03:34.688 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:35.045 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:35.065 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:35.701 [main] AddtoCart -  add product to cart time19
+[DEBUG] 2025-05-25 13:03:36.063 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:36.429 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:36.449 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:37.087 [main] AddtoCart -  add product to cart time20
+[DEBUG] 2025-05-25 13:03:37.454 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:37.807 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:37.827 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:38.471 [main] AddtoCart -  add product to cart time21
+[DEBUG] 2025-05-25 13:03:38.832 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:39.197 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:39.215 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:39.857 [main] AddtoCart -  add product to cart time22
+[DEBUG] 2025-05-25 13:03:40.221 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:40.586 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:40.606 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:41.239 [main] AddtoCart -  add product to cart time23
+[DEBUG] 2025-05-25 13:03:41.599 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:41.956 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:41.978 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:42.615 [main] AddtoCart -  add product to cart time24
+[DEBUG] 2025-05-25 13:03:42.985 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:43.350 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:43.370 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:44.011 [main] AddtoCart -  add product to cart time25
+[DEBUG] 2025-05-25 13:03:44.371 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:44.738 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:44.759 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:45.394 [main] AddtoCart -  add product to cart time26
+[DEBUG] 2025-05-25 13:03:45.766 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:46.118 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:46.138 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:46.777 [main] AddtoCart -  add product to cart time27
+[DEBUG] 2025-05-25 13:03:47.141 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:47.509 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:47.527 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:48.175 [main] AddtoCart -  add product to cart time28
+[DEBUG] 2025-05-25 13:03:48.532 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:48.899 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:48.919 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:49.561 [main] AddtoCart -  add product to cart time29
+[DEBUG] 2025-05-25 13:03:49.930 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:50.291 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:50.310 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:50.955 [main] AddtoCart -  add product to cart time30
+[DEBUG] 2025-05-25 13:03:51.318 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:51.681 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:51.696 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:52.340 [main] AddtoCart -  add product to cart time31
+[DEBUG] 2025-05-25 13:03:52.707 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:53.062 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:53.085 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:53.728 [main] AddtoCart -  add product to cart time32
+[DEBUG] 2025-05-25 13:03:54.101 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:54.453 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:54.473 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:55.111 [main] AddtoCart -  add product to cart time33
+[DEBUG] 2025-05-25 13:03:55.474 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:55.839 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:55.855 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:56.501 [main] AddtoCart -  add product to cart time34
+[DEBUG] 2025-05-25 13:03:56.894 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:57.268 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:57.283 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:57.922 [main] AddtoCart -  add product to cart time35
+[DEBUG] 2025-05-25 13:03:58.296 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:03:58.662 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:03:58.678 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:03:59.341 [main] AddtoCart -  add product to cart time36
+[DEBUG] 2025-05-25 13:03:59.706 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:00.089 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:00.105 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:00.776 [main] AddtoCart -  add product to cart time37
+[DEBUG] 2025-05-25 13:04:01.177 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:01.554 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:01.568 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:02.237 [main] AddtoCart -  add product to cart time38
+[DEBUG] 2025-05-25 13:04:02.599 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:02.984 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:03.001 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:03.728 [main] AddtoCart -  add product to cart time39
+[DEBUG] 2025-05-25 13:04:04.103 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:04.476 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:04.490 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:05.194 [main] AddtoCart -  add product to cart time40
+[DEBUG] 2025-05-25 13:04:05.610 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:06.004 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:06.019 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:06.734 [main] AddtoCart -  add product to cart time41
+[DEBUG] 2025-05-25 13:04:07.104 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:07.479 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:07.496 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:08.260 [main] AddtoCart -  add product to cart time42
+[DEBUG] 2025-05-25 13:04:08.641 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:09.016 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:09.036 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:09.700 [main] AddtoCart -  add product to cart time43
+[DEBUG] 2025-05-25 13:04:10.060 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:10.970 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:10.985 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:11.652 [main] AddtoCart -  add product to cart time44
+[DEBUG] 2025-05-25 13:04:12.058 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:12.444 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:12.467 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:13.135 [main] AddtoCart -  add product to cart time45
+[DEBUG] 2025-05-25 13:04:13.562 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:13.936 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:13.957 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:14.664 [main] AddtoCart -  add product to cart time46
+[DEBUG] 2025-05-25 13:04:15.102 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:15.475 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:15.490 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:16.207 [main] AddtoCart -  add product to cart time47
+[DEBUG] 2025-05-25 13:04:16.610 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:17.004 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:17.017 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:17.681 [main] AddtoCart -  add product to cart time48
+[DEBUG] 2025-05-25 13:04:18.060 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:18.426 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:18.442 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:19.100 [main] AddtoCart -  add product to cart time49
+[DEBUG] 2025-05-25 13:04:19.465 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:19.822 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:19.841 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:20.498 [main] AddtoCart -  add product to cart time50
+[DEBUG] 2025-05-25 13:04:20.863 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:21.222 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:21.241 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:21.902 [main] AddtoCart -  add product to cart time51
+[DEBUG] 2025-05-25 13:04:22.266 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:22.635 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:22.649 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:23.290 [main] AddtoCart -  add product to cart time52
+[DEBUG] 2025-05-25 13:04:23.660 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:24.033 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:24.048 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:24.717 [main] AddtoCart -  add product to cart time53
+[DEBUG] 2025-05-25 13:04:25.078 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:25.447 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:25.469 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:26.117 [main] AddtoCart -  add product to cart time54
+[DEBUG] 2025-05-25 13:04:26.484 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:26.851 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:26.872 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:27.524 [main] AddtoCart -  add product to cart time55
+[DEBUG] 2025-05-25 13:04:27.888 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:28.254 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:28.270 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:28.963 [main] AddtoCart -  add product to cart time56
+[DEBUG] 2025-05-25 13:04:29.334 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:29.700 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:29.721 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:30.368 [main] AddtoCart -  add product to cart time57
+[DEBUG] 2025-05-25 13:04:30.736 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:31.113 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:31.127 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:31.774 [main] AddtoCart -  add product to cart time58
+[DEBUG] 2025-05-25 13:04:32.137 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:32.507 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:32.523 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:33.183 [main] AddtoCart -  add product to cart time59
+[DEBUG] 2025-05-25 13:04:33.556 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:33.922 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:33.937 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:34.587 [main] AddtoCart -  add product to cart time60
+[DEBUG] 2025-05-25 13:04:34.953 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:35.319 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:35.335 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:35.981 [main] AddtoCart -  add product to cart time61
+[DEBUG] 2025-05-25 13:04:36.343 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:36.712 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:36.725 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:37.370 [main] AddtoCart -  add product to cart time62
+[DEBUG] 2025-05-25 13:04:37.740 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:38.103 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:38.123 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:38.773 [main] AddtoCart -  add product to cart time63
+[DEBUG] 2025-05-25 13:04:39.137 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:39.512 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:39.526 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:40.177 [main] AddtoCart -  add product to cart time64
+[DEBUG] 2025-05-25 13:04:40.534 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:40.913 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:40.927 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:41.572 [main] AddtoCart -  add product to cart time65
+[DEBUG] 2025-05-25 13:04:41.931 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:42.303 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:42.317 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:42.965 [main] AddtoCart -  add product to cart time66
+[DEBUG] 2025-05-25 13:04:43.328 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:43.701 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:43.719 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:44.372 [main] AddtoCart -  add product to cart time67
+[DEBUG] 2025-05-25 13:04:44.738 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:45.101 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:45.122 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:45.770 [main] AddtoCart -  add product to cart time68
+[DEBUG] 2025-05-25 13:04:46.137 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:47.000 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:47.020 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:47.671 [main] AddtoCart -  add product to cart time69
+[DEBUG] 2025-05-25 13:04:48.028 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:48.390 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:48.404 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:49.035 [main] AddtoCart -  add product to cart time70
+[DEBUG] 2025-05-25 13:04:49.389 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:49.752 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:49.769 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:50.391 [main] AddtoCart -  add product to cart time71
+[DEBUG] 2025-05-25 13:04:50.751 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:51.107 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:51.127 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:51.758 [main] AddtoCart -  add product to cart time72
+[DEBUG] 2025-05-25 13:04:52.116 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:52.475 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:52.489 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:53.110 [main] AddtoCart -  add product to cart time73
+[DEBUG] 2025-05-25 13:04:53.472 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:53.825 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:53.845 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:54.466 [main] AddtoCart -  add product to cart time74
+[DEBUG] 2025-05-25 13:04:54.824 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:55.208 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:55.222 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:55.862 [main] AddtoCart -  add product to cart time75
+[DEBUG] 2025-05-25 13:04:56.231 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:56.638 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:56.658 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:57.288 [main] AddtoCart -  add product to cart time76
+[DEBUG] 2025-05-25 13:04:57.649 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:58.010 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:58.030 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:04:58.660 [main] AddtoCart -  add product to cart time77
+[DEBUG] 2025-05-25 13:04:59.031 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:04:59.413 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:04:59.431 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:00.108 [main] AddtoCart -  add product to cart time78
+[DEBUG] 2025-05-25 13:05:00.476 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:00.861 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:00.880 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:01.515 [main] AddtoCart -  add product to cart time79
+[DEBUG] 2025-05-25 13:05:01.882 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:02.235 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:02.253 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:02.869 [main] AddtoCart -  add product to cart time80
+[DEBUG] 2025-05-25 13:05:03.229 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:03.616 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:03.632 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:04.262 [main] AddtoCart -  add product to cart time81
+[DEBUG] 2025-05-25 13:05:04.613 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:04.968 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:04.987 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:05.618 [main] AddtoCart -  add product to cart time82
+[DEBUG] 2025-05-25 13:05:05.970 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:06.326 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:06.340 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:06.967 [main] AddtoCart -  add product to cart time83
+[DEBUG] 2025-05-25 13:05:07.326 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:07.701 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:07.713 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:08.344 [main] AddtoCart -  add product to cart time84
+[DEBUG] 2025-05-25 13:05:08.704 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:09.065 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:09.078 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:09.704 [main] AddtoCart -  add product to cart time85
+[DEBUG] 2025-05-25 13:05:10.075 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:10.435 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:10.453 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:11.104 [main] AddtoCart -  add product to cart time86
+[DEBUG] 2025-05-25 13:05:11.456 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:11.829 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:11.847 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:12.477 [main] AddtoCart -  add product to cart time87
+[DEBUG] 2025-05-25 13:05:12.835 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:13.210 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:13.227 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:13.856 [main] AddtoCart -  add product to cart time88
+[DEBUG] 2025-05-25 13:05:14.232 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:14.600 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:14.615 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:15.248 [main] AddtoCart -  add product to cart time89
+[DEBUG] 2025-05-25 13:05:15.602 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:15.972 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:15.984 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:16.659 [main] AddtoCart -  add product to cart time90
+[DEBUG] 2025-05-25 13:05:17.027 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:17.386 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:17.400 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:18.032 [main] AddtoCart -  add product to cart time91
+[DEBUG] 2025-05-25 13:05:18.388 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:18.774 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:18.788 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:19.420 [main] AddtoCart -  add product to cart time92
+[DEBUG] 2025-05-25 13:05:19.788 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:20.160 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:20.174 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:20.803 [main] AddtoCart -  add product to cart time93
+[DEBUG] 2025-05-25 13:05:21.160 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:22.051 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:22.072 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:22.759 [main] AddtoCart -  add product to cart time94
+[DEBUG] 2025-05-25 13:05:23.131 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:23.497 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:23.512 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:24.151 [main] AddtoCart -  add product to cart time95
+[DEBUG] 2025-05-25 13:05:24.522 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:24.894 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:24.909 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:25.554 [main] AddtoCart -  add product to cart time96
+[DEBUG] 2025-05-25 13:05:25.915 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:26.287 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:26.302 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:26.954 [main] AddtoCart -  add product to cart time97
+[DEBUG] 2025-05-25 13:05:27.324 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:27.697 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:27.712 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:28.387 [main] AddtoCart -  add product to cart time98
+[DEBUG] 2025-05-25 13:05:28.777 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:29.148 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:29.162 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:29.843 [main] AddtoCart -  add product to cart time99
+[DEBUG] 2025-05-25 13:05:30.205 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:30.582 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:30.597 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:31.235 [main] AddtoCart -  add product to cart time100
+[DEBUG] 2025-05-25 13:05:31.607 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:31.989 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:32.004 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:32.655 [main] AddtoCart -  add product to cart time101
+[DEBUG] 2025-05-25 13:05:33.033 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:33.415 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:33.428 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:34.066 [main] AddtoCart -  add product to cart time102
+[DEBUG] 2025-05-25 13:05:34.451 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:34.823 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:34.837 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:35.492 [main] AddtoCart -  add product to cart time103
+[DEBUG] 2025-05-25 13:05:35.862 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:36.231 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:36.250 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:36.910 [main] AddtoCart -  add product to cart time104
+[DEBUG] 2025-05-25 13:05:37.285 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:37.660 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:37.674 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:38.314 [main] AddtoCart -  add product to cart time105
+[DEBUG] 2025-05-25 13:05:38.683 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:39.059 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:39.072 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:39.721 [main] AddtoCart -  add product to cart time106
+[DEBUG] 2025-05-25 13:05:40.084 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:40.460 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:40.474 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:41.124 [main] AddtoCart -  add product to cart time107
+[DEBUG] 2025-05-25 13:05:41.493 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:41.866 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:41.882 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:42.529 [main] AddtoCart -  add product to cart time108
+[DEBUG] 2025-05-25 13:05:42.895 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:43.272 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:43.286 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:43.978 [main] AddtoCart -  add product to cart time109
+[DEBUG] 2025-05-25 13:05:44.350 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:44.731 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:44.744 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:45.384 [main] AddtoCart -  add product to cart time110
+[DEBUG] 2025-05-25 13:05:45.756 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:46.132 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:46.147 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:46.795 [main] AddtoCart -  add product to cart time111
+[DEBUG] 2025-05-25 13:05:47.166 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:47.541 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:47.556 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:48.196 [main] AddtoCart -  add product to cart time112
+[DEBUG] 2025-05-25 13:05:48.570 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:48.944 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:48.959 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:49.605 [main] AddtoCart -  add product to cart time113
+[DEBUG] 2025-05-25 13:05:49.974 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:50.348 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:50.362 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:51.025 [main] AddtoCart -  add product to cart time114
+[DEBUG] 2025-05-25 13:05:51.394 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:51.801 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:51.821 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:52.508 [main] AddtoCart -  add product to cart time115
+[DEBUG] 2025-05-25 13:05:52.903 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:53.303 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:53.323 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:54.026 [main] AddtoCart -  add product to cart time116
+[DEBUG] 2025-05-25 13:05:54.398 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:54.811 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:54.824 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:55.581 [main] AddtoCart -  add product to cart time117
+[DEBUG] 2025-05-25 13:05:55.961 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:56.332 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:56.360 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:57.014 [main] AddtoCart -  add product to cart time118
+[DEBUG] 2025-05-25 13:05:57.430 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:58.385 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:58.413 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:05:59.062 [main] AddtoCart -  add product to cart time119
+[DEBUG] 2025-05-25 13:05:59.434 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:05:59.816 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:05:59.830 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:00.465 [main] AddtoCart -  add product to cart time120
+[DEBUG] 2025-05-25 13:06:00.861 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:01.248 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:01.266 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:01.939 [main] AddtoCart -  add product to cart time121
+[DEBUG] 2025-05-25 13:06:02.337 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:02.727 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:02.746 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:03.431 [main] AddtoCart -  add product to cart time122
+[DEBUG] 2025-05-25 13:06:03.804 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:04.178 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:04.193 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:04.839 [main] AddtoCart -  add product to cart time123
+[DEBUG] 2025-05-25 13:06:05.209 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:05.574 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:05.592 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:06.234 [main] AddtoCart -  add product to cart time124
+[DEBUG] 2025-05-25 13:06:06.605 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:06.976 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:06.994 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:07.636 [main] AddtoCart -  add product to cart time125
+[DEBUG] 2025-05-25 13:06:07.993 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:08.372 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:08.394 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:09.059 [main] AddtoCart -  add product to cart time126
+[DEBUG] 2025-05-25 13:06:09.444 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:09.817 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:09.838 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:10.490 [main] AddtoCart -  add product to cart time127
+[DEBUG] 2025-05-25 13:06:10.860 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:11.276 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:11.289 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:11.932 [main] AddtoCart -  add product to cart time128
+[DEBUG] 2025-05-25 13:06:12.327 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:12.708 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:12.724 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:13.366 [main] AddtoCart -  add product to cart time129
+[DEBUG] 2025-05-25 13:06:13.735 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:14.107 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:14.123 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:14.771 [main] AddtoCart -  add product to cart time130
+[DEBUG] 2025-05-25 13:06:15.141 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:15.518 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:15.533 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:16.178 [main] AddtoCart -  add product to cart time131
+[DEBUG] 2025-05-25 13:06:16.538 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:16.907 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:16.928 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:17.570 [main] AddtoCart -  add product to cart time132
+[DEBUG] 2025-05-25 13:06:17.940 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:18.301 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:18.321 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:18.970 [main] AddtoCart -  add product to cart time133
+[DEBUG] 2025-05-25 13:06:19.334 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:19.713 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:19.728 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:20.363 [main] AddtoCart -  add product to cart time134
+[DEBUG] 2025-05-25 13:06:20.734 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:21.113 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:21.128 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:21.769 [main] AddtoCart -  add product to cart time135
+[DEBUG] 2025-05-25 13:06:22.142 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:22.510 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:22.529 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:23.174 [main] AddtoCart -  add product to cart time136
+[DEBUG] 2025-05-25 13:06:23.541 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:23.919 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:23.935 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:24.586 [main] AddtoCart -  add product to cart time137
+[DEBUG] 2025-05-25 13:06:24.951 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:25.324 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:25.345 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:25.986 [main] AddtoCart -  add product to cart time138
+[DEBUG] 2025-05-25 13:06:26.352 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:26.731 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:26.748 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:27.398 [main] AddtoCart -  add product to cart time139
+[DEBUG] 2025-05-25 13:06:27.766 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:28.156 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:28.170 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:28.815 [main] AddtoCart -  add product to cart time140
+[DEBUG] 2025-05-25 13:06:29.184 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:29.560 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:29.574 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:30.227 [main] AddtoCart -  add product to cart time141
+[DEBUG] 2025-05-25 13:06:30.598 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:30.961 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:30.981 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:31.632 [main] AddtoCart -  add product to cart time142
+[DEBUG] 2025-05-25 13:06:32.009 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:32.390 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:32.408 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:33.062 [main] AddtoCart -  add product to cart time143
+[DEBUG] 2025-05-25 13:06:33.432 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:34.328 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:34.346 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:35.000 [main] AddtoCart -  add product to cart time144
+[DEBUG] 2025-05-25 13:06:35.377 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:35.760 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:35.776 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:36.434 [main] AddtoCart -  add product to cart time145
+[DEBUG] 2025-05-25 13:06:36.811 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:37.193 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:37.214 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:37.869 [main] AddtoCart -  add product to cart time146
+[DEBUG] 2025-05-25 13:06:38.245 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:38.630 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:38.648 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:39.304 [main] AddtoCart -  add product to cart time147
+[DEBUG] 2025-05-25 13:06:39.675 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:40.048 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:40.068 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:40.726 [main] AddtoCart -  add product to cart time148
+[DEBUG] 2025-05-25 13:06:41.093 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:06:41.475 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:06:41.491 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:06:41.581 [main] AddtoCart -  add product to cart time149
+[INFO ] 2025-05-25 13:16:16.046 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 13:16:16.547 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:16:16.925 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:16.951 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:17.602 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:17.602 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:16:17.617 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:16:17.634 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:16:17.647 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:16:17.687 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:16:18.581 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:16:18.937 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:18.958 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:19.600 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:19.600 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:16:19.977 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:16:20.349 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:20.371 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:21.015 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:21.015 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:16:21.028 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:16:21.036 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:16:21.049 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:16:21.056 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:16:21.092 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:16:21.447 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:16:21.820 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:21.836 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:22.523 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:22.523 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:16:22.921 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:16:23.295 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:23.312 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:23.947 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:23.947 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:16:24.306 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:16:24.668 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 13:16:24.689 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:25.323 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:16:25.336 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:16:25.344 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:16:25.381 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:16:25.404 [main] AddtoCart - test passed
+[DEBUG] 2025-05-25 13:16:25.760 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:16:26.125 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:16:26.145 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:16:26.904 [main] AddtoCart - fetch erorr messages
+[DEBUG] 2025-05-25 13:16:26.904 [main] AddtoCart - test failed
+[INFO ] 2025-05-25 13:17:27.724 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 13:17:28.228 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:17:28.613 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:28.639 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:29.295 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:29.295 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:17:29.315 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:17:29.330 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:17:29.337 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:17:29.379 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:17:30.258 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:17:30.613 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:30.634 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:31.260 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:31.261 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:17:31.626 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:17:31.980 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:32.000 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:32.674 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:32.675 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:17:32.687 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:17:32.694 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:17:32.707 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:17:32.715 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:17:32.752 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:17:33.100 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:17:33.457 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:33.479 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:34.108 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:34.108 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:17:34.454 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:17:34.825 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:34.846 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:35.478 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:35.478 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:17:35.839 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:17:36.199 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 13:17:36.222 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:36.856 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:17:36.865 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:17:36.871 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:17:36.911 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:17:36.932 [main] AddtoCart - test passed
+[DEBUG] 2025-05-25 13:17:37.320 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:17:37.689 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:17:37.708 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:17:38.460 [main] AddtoCart - fetch erorr messages
+[DEBUG] 2025-05-25 13:17:38.460 [main] AddtoCart - test failed
+[INFO ] 2025-05-25 13:23:03.571 [main] AddtoCart - opening the website
+[DEBUG] 2025-05-25 13:23:03.699 [main] AddtoCart - test 1 - add product to empty cart
+[DEBUG] 2025-05-25 13:23:04.086 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:23:04.461 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:04.488 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:05.149 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:05.149 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:23:05.171 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:23:05.186 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:23:05.196 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:23:05.238 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:23:05.238 [main] AddtoCart - test 2 - add product to cart that have diffrent product
+[DEBUG] 2025-05-25 13:23:06.147 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:23:06.510 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:06.531 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:07.169 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:07.169 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:23:07.550 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:23:07.918 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:07.937 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:08.592 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:08.592 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:23:08.603 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:23:08.610 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:23:08.624 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:23:08.630 [main] AddtoCart - test passed
+[INFO ] 2025-05-25 13:23:08.667 [main] AddtoCart - clear cart
+[DEBUG] 2025-05-25 13:23:08.667 [main] AddtoCart - test 3 - add to cart product and after that same product
+[DEBUG] 2025-05-25 13:23:09.027 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:23:09.397 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:09.418 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:10.069 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:10.069 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:23:10.427 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:23:10.795 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:10.814 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:11.462 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:11.462 [main] AddtoCart -  save product and quantity to comparson 
+[DEBUG] 2025-05-25 13:23:11.825 [main] AddtoCart - go to fish section
+[DEBUG] 2025-05-25 13:23:12.202 [main] AddtoCart -  same product choose
+[DEBUG] 2025-05-25 13:23:12.222 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:12.884 [main] AddtoCart -  add product to cart 
+[DEBUG] 2025-05-25 13:23:12.897 [main] AddtoCart -  get all products in cart 
+[DEBUG] 2025-05-25 13:23:12.905 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:23:12.945 [main] AddtoCart -  compare between the carts  
+[DEBUG] 2025-05-25 13:23:12.966 [main] AddtoCart - test passed
+[DEBUG] 2025-05-25 13:23:13.000 [main] AddtoCart - test 4 - add to cart product that not have in stock
+[DEBUG] 2025-05-25 13:23:13.363 [main] AddtoCart - go to dog section
+[DEBUG] 2025-05-25 13:23:13.731 [main] AddtoCart -  product choose
+[DEBUG] 2025-05-25 13:23:13.752 [main] AddtoCart - get product name
+[DEBUG] 2025-05-25 13:23:14.532 [main] AddtoCart - fetch erorr messages
+[DEBUG] 2025-05-25 13:23:14.532 [main] AddtoCart - test failed

@@ -22,6 +22,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pages.CartPage;
+import pages.CatalogPage;
+import pages.QuickLinkPage;
+import pages.SidebarPage;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
@@ -111,21 +115,24 @@ public class AddtoCart {
 		logger.info("opening the website");
 
 		driver.manage().window().setSize(new Dimension(1004, 724));
-		driver.findElement(By.xpath("//*[@id=\"SidebarContent\"]/a[1]")).click();
+		logger.debug("test 1 - add product to empty cart");
+		SidebarPage siderbar = new SidebarPage(driver);
+		siderbar.clickFish();
 		logger.debug("go to fish section");
-
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		int rowProduct = 2;
+		CatalogPage catalog = new CatalogPage(driver);
+		catalog.selectProduct(rowProduct);
 		logger.debug(" product choose");
 
-		String productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		String productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
 		products.put(productName, 1);
 		logger.debug(" save product and quantity to comparson ");
-
-		List<WebElement> productsInCart = driver.findElements(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr"));
+		CartPage cart = new CartPage(driver);
+		List<WebElement> productsInCart = cart.getProductsInCart();
 		logger.debug(" get all products in cart ");
 
 		if (productsInCart.size() - 2 != products.size()) {
@@ -144,169 +151,202 @@ public class AddtoCart {
 			}
 
 		}
-		
-		
-		driver.findElement(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr[3]/td[5]/a")).click();
+
+		cart.RemoveAll();
 		logger.info("clear cart");
 		products.clear();
-
 		
-		driver.manage().window().setSize(new Dimension(1004, 724));
-		driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/a[1]")).click();
+		logger.debug("test 2 - add product to cart that have diffrent product");
+
+		QuickLinkPage quickPage = new QuickLinkPage(driver);
+		quickPage.clickFishQuickLink();
 		logger.debug("go to fish section");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		catalog = new CatalogPage(driver);
+		catalog.selectProduct(rowProduct);
 		logger.debug(" product choose");
 
-		productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
 		products.put(productName, 1);
 		logger.debug(" save product and quantity to comparson ");
-		driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/a[2]")).click();
+
+		quickPage = new QuickLinkPage(driver);
+		quickPage.clickDogsQuickLink();
 		logger.debug("go to dog section");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		catalog = new CatalogPage(driver);
+		catalog.selectProduct(rowProduct);
 		logger.debug(" product choose");
 
-		productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
 		products.put(productName, 1);
 		logger.debug(" save product and quantity to comparson ");
-		
-		productsInCart = driver.findElements(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr"));
+		cart = new CartPage(driver);
+		productsInCart = cart.getProductsInCart();
 		logger.debug(" get all products in cart ");
-		
+
 		if (productsInCart.size() - 2 != products.size()) {
 			logger.debug("test failed");
 
 		} else {
-			boolean pass=true;
-			for(int i=0;i<products.size();i++) {
-			List<WebElement> cells = productsInCart.get(i+1).findElements(By.tagName("td"));
-			logger.debug(" compare between the carts  ");
-			productName = cells.get(0).getText();
-			if (!products.containsKey(productName)) {
-				logger.debug("test failed");
-				i=products.size();
-				pass=false;
+			boolean pass = true;
+			for (int i = 0; i < products.size(); i++) {
+				List<WebElement> cells = productsInCart.get(i + 1).findElements(By.tagName("td"));
+				logger.debug(" compare between the carts  ");
+				productName = cells.get(0).getText();
+				if (!products.containsKey(productName)) {
+					logger.debug("test failed");
+					i = products.size();
+					pass = false;
 
-			
+				}
+
 			}
-
-		}
-			if(pass) {
+			if (pass) {
 				logger.debug("test passed");
 
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		driver.findElement(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr[4]/td[5]/a")).click();
+
+		cart.RemoveAll();
 		logger.info("clear cart");
 		products.clear();
-
-		
-		driver.manage().window().setSize(new Dimension(1004, 724));
-		driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/a[1]")).click();
+		logger.debug("test 3 - add to cart product and after that same product");
+		quickPage = new QuickLinkPage(driver);
+		quickPage.clickFishQuickLink();
 		logger.debug("go to fish section");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		catalog.selectProduct(rowProduct);
 		logger.debug(" product choose");
 
-		productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
-		
-		if(products.containsKey(productName)) {
-			int quantity= products.get(productName);
-			products.put(productName,quantity+1);
-		}else {
-			products.put(productName,1);
+
+		if (products.containsKey(productName)) {
+			int quantity = products.get(productName);
+			products.put(productName, quantity + 1);
+		} else {
+			products.put(productName, 1);
 		}
-		
+
 		logger.debug(" save product and quantity to comparson ");
-		driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/a[2]")).click();
+		quickPage = new QuickLinkPage(driver);
+		quickPage.clickDogsQuickLink();
 		logger.debug("go to dog section");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		catalog.selectProduct(rowProduct);
 		logger.debug(" product choose");
 
-		productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
-		
-		if(products.containsKey(productName)) {
-			int quantity= products.get(productName);
-			products.put(productName,quantity+1);
-		}else {
-			products.put(productName,1);
+
+		if (products.containsKey(productName)) {
+			int quantity = products.get(productName);
+			products.put(productName, quantity + 1);
+		} else {
+			products.put(productName, 1);
 		}
-		
+
 		logger.debug(" save product and quantity to comparson ");
-		
-		driver.findElement(By.xpath("//*[@id=\"QuickLinks\"]/a[1]")).click();
+
+		quickPage = new QuickLinkPage(driver);
+		quickPage.clickFishQuickLink();
 		logger.debug("go to fish section");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).click();
+		catalog = new CatalogPage(driver);
+		catalog.selectProduct(rowProduct);
 		logger.debug(" same product choose");
 
-		productName = driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[1]/a")).getText();
+		productName = catalog.getProductName(rowProduct, 1);
 		logger.debug("get product name");
 
-		driver.findElement(By.xpath("//*[@id=\"Catalog\"]/table/tbody/tr[2]/td[5]/a")).click();
+		catalog.addToCart(rowProduct);
 		logger.debug(" add product to cart ");
-		
-		productsInCart = driver.findElements(By.xpath("//*[@id=\"Cart\"]/form/table/tbody/tr"));
-		logger.debug(" get all products in cart ");
-		if(products.containsKey(productName)) {
-			int quantity= products.get(productName);
-			products.put(productName,quantity+1);
-		}else {
-			products.put(productName,1);
+		if (products.containsKey(productName)) {
+			int quantity = products.get(productName);
+			products.put(productName, quantity + 1);
+		} else {
+			products.put(productName, 1);
 		}
-		
+		cart = new CartPage(driver);
+		productsInCart = cart.getProductsInCart();
+		logger.debug(" get all products in cart ");
 		if (productsInCart.size() - 2 != products.size()) {
 			logger.debug("test failed");
 
 		} else {
-			boolean pass=true;
-			for(int i=0;i<products.size();i++) {
-			List<WebElement> cells = productsInCart.get(i+1).findElements(By.tagName("td"));
-			logger.debug(" compare between the carts  ");
-			productName = cells.get(0).getText();
-			WebElement input =  (WebElement) cells.get(4).findElement(By.tagName("input"));
-			int quantity = Integer.parseInt(input.getAttribute("value"));
-			if (!products.containsKey(productName)||products.get(productName)!=quantity) {
-				logger.debug("test failed");
-				i=products.size();
-				pass=false;
+			boolean pass = true;
+			for (int i = 0; i < products.size(); i++) {
+				List<WebElement> cells = productsInCart.get(i + 1).findElements(By.tagName("td"));
+				logger.debug(" compare between the carts  ");
+				productName = cells.get(0).getText();
+				WebElement input = (WebElement) cells.get(4).findElement(By.tagName("input"));
+				int quantity = Integer.parseInt(input.getAttribute("value"));
+				if (!products.containsKey(productName) || products.get(productName) != quantity) {
+					logger.debug("test failed");
+					i = products.size();
+					pass = false;
 
-			
+				}
+
 			}
-
-		}
-			if(pass) {
+			if (pass) {
 				logger.debug("test passed");
 
 			}
 		}
+		cart.RemoveAll();
+		logger.debug("test 4 - add to cart product that not have in stock");
+
+			rowProduct = 5;
+			quickPage = new QuickLinkPage(driver);
+			quickPage.clickDogsQuickLink();
+			logger.debug("go to dog section");
+
+			catalog.selectProduct(rowProduct);
+			logger.debug(" product choose");
+
+			productName = catalog.getProductName(2, 1);
+			logger.debug("get product name");
+			catalog.addToCart(2);
+
+			if (products.containsKey(productName)) {
+				int quantity = products.get(productName);
+				products.put(productName, quantity + 1);
+			} else {
+				products.put(productName, 1);
+			}
+		
+		cart = new CartPage(driver);
+		int quan=9035;
+		cart.updateProduct(2,quan );
+		cart.updateCart();
+		products.put(productName,quan);
+		List<WebElement>erorrs=cart.getMessageError();
+		logger.debug("fetch erorr messages");
+		if(erorrs.size()!=0) {
+			logger.debug("test passed");
+		}
+		else {
+			logger.debug("test failed");
+
+		}
+		
+		
 
 	}
-	
-	
 
 	public static void main(String args[]) {
 		JUnitCore junit = new JUnitCore();
